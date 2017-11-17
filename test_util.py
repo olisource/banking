@@ -1,7 +1,6 @@
 import os
 import sys
 
-import xmlrunner
 import unittest
 
 from util.calculator import Calculator
