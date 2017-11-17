@@ -13,11 +13,9 @@ class AccountBalanceTestCase(unittest.TestCase):
         self.account1.deposit(4000)
         self.assertEqual(self.account1.balance, 7000, msg="Inaccurate deposit method")
 
-    '''
     def test_withdraw(self):
         self.account1.withdraw(500)
         self.assertEqual(self.account1.balance, 2500, msg="Inaccurate withdraw method")
-    ''' 
 
     def test_invalid_transaction(self):
         self.assertEqual(self.account1.withdraw(6000), "Invalid transaction", msg="Invalid transaction")
