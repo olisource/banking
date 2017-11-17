@@ -1,6 +1,6 @@
 import unittest
 
-from bank_account import BankAccount, MinimumBalanceAccount
+from banking.bank_account import BankAccount, MinimumBalanceAccount
 
 class AccountBalanceTestCase(unittest.TestCase):
     def setUp(self):
