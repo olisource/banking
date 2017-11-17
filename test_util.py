@@ -6,7 +6,7 @@ import unittest
 
 from util.calculator import Calculator
 
-class CalculatorTestCase(unittest.TestCase)
+class CalculatorTestCase(unittest.TestCase):
     def setUp(self):
         self.calculator1 = Calculator()
 
