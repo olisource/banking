@@ -2,7 +2,7 @@ import unittest
 
 from bank_account import BankAccount, MinimumBalanceAccount
 
-class AccountBalanceTestCase(unittest.TestCase)
+class AccountBalanceTestCase(unittest.TestCase):
     def setUp(self):
         self.account1 = BankAccount()
 
