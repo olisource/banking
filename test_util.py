@@ -4,7 +4,7 @@ import sys
 import xmlrunner
 import unittest
 
-from util import Calculator
+from util.calculator import Calculator
 
 class CalculatorTestCase(unittest.TestCase)
     def setUp(self):
