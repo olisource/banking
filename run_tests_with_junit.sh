@@ -5,6 +5,7 @@ set -e
 
 virtualenv ci
 
-. ci/python2.7/bin/activate
+#. ./ci/python2.7/bin/activate
+. ./ci/bin/activate
 
 ./test.py
